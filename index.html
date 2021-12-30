@@ -7,9 +7,53 @@
     <title>Top Casa Fina</title>
 
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="estiloss.css">
 </head>
 <body>
-    <h2>Sobre nós</h2>
-    <img class="img-responsive" src="assets/img/empresa.jpg" alt="">
+    <div class="container">
+        <h2>Sobre nós</h2>
+        <img class="img-responsive" src="assets/img/empresa.jpg" alt="Imagem da empresa">
+
+        
+        <div class="panel-group" id="paineis-sobre">
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title" data-toggle="collapse" data-target="#primeiro-paragrafo" data-parent="#paineis-sobre">
+                        Desde 1935</h3>
+                </div>
+                <div id="primeiro-paragrafo" class="collapse">
+                    <div class="panel-body">
+                        <p>Desde 1935 trazendo casas,  mansões e prédio lindos para o mundo.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title" data-toggle="collapse" data-target="#segundo-paragrafo" data-parent="#paineis-sobre">Preços acessíveis</h3>
+                </div>
+                <div id="segundo-paragrafo" class="collapse">
+                    <div class="panel-body">
+                        <p>Preços a partir de R$ 1000,00.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title" data-toggle="collapse" data-target="#terceiro-paragrafo" data-parent="#paineis-sobre">Alegria em colaborar para um mundo mais bonito</h3>
+                </div>
+                <div id="terceiro-paragrafo" class="collapse">
+                    <div class="panel-body">
+                        <p>Trazendo alegria para a vida das pessoas que tem dinheiro para gastar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <script src="jquery.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
