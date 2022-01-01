@@ -62,3 +62,21 @@ footer {
 footer address:last-child {
     margin-bottom: 0;
 }
+
+@media (min-width: 768px) {
+    #paineis-sobre {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 992px) {
+    .TopCasaFina-banner {
+        left: 0;
+        transform: translate(0, 100%);
+        width: 50%;
+    }
+    .TopCasaFina-bannerWrapper {
+        position: relative;
+        height: 100%;
+    }
+}
