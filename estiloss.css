@@ -2,6 +2,37 @@
     margin-top: 20px;
 }
 
+html, body {
+    height: 100%;
+}
+
+
+header h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header {
+    background-image: url(assets/img/castelo.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 100%;
+    position: relative;
+}
+
+.TopCasaFina-banner {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s;
+}
+
 .titulo-depoimentos {
     background-color: #0275D8;
     padding-top: 20px;

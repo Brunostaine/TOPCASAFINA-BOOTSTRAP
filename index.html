@@ -10,7 +10,40 @@
     <link rel="stylesheet" href="estiloss.css">
 </head>
 <body>
-    <section class="container">
+
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">TopCasaFina Arquitetura</a>
+                </div>
+                <div class="collapse navbar-collapse" id="collapse-navbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#sobre-nos">Sobre Nós</a></li>
+                        <li><a href="#nossos-projetos">Nossos Projetos</a></li>
+                        <li><a href="#depoimentos">depoimentos</a></li>
+                        <li><a href="#video">Video</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="TopCasaFina-banner">
+            <h1>TopCasaFina Arquitetura</h1>
+            <p>Projetando a casa dos sonhos de 2000 a.c.</p>
+            <button class="btn btn-primary btn-lg">Contate-nos agora</button>
+        </div>
+    </header>
+
+    <section id="sobre-nos" class="container">
         <h2>Sobre nós</h2>
         <img class="img-responsive" src="assets/img/empresa.jpg" alt="Imagem da empresa">
 
@@ -60,7 +93,7 @@
         </div>
     </div>
 
-    <section class="container">
+    <section id="nossos-projetos" class="container">
         <h2>Nossos Projetos</h2>
         <figure class="thumbnail">
             <img src="assets/img/projetos/casa-castelo.png" alt="Imagem casa castelo">
@@ -103,7 +136,7 @@
         </figure>
     </section>
 
-    <section>
+    <section id="depoimentos">
         <h2 class="titulo-depoimentos container">Depoimento de clientes</h2>
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
@@ -150,14 +183,14 @@
           </div>
     </section>
 
-    <div class="container">
+    <div id="video" class="container">
         <h2>Vídeo Institucional</h2>
         <div class="embed-responsive embed-responsive-16by9">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/i_3Py1Aygel" frameborder="0" allowfullscreen></iframe>
         </div>
     </div>  
     
-    <section class="container">
+    <section id="contato" class="container">
         <h2>Contato</h2>
         <p>Entre em contato conosco</p>
 
@@ -217,5 +250,6 @@
 
     <script src="jquery.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="navbar-animation-fix.js"></script>
 </body>
 </html>
